@@ -33,6 +33,7 @@
 		F203A7241ACA3E3C00D77774 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F203A7231ACA3E3C00D77774 /* libsqlite3.dylib */; };
 		F203A7271ACA499A00D77774 /* Tabla.m in Sources */ = {isa = PBXBuildFile; fileRef = F203A7261ACA499A00D77774 /* Tabla.m */; };
 		F203A72A1ACA4F5200D77774 /* panaderiaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F203A7291ACA4F5200D77774 /* panaderiaCell.m */; };
+		F203A72D1ACA56C000D77774 /* ObjetosOneByOne.m in Sources */ = {isa = PBXBuildFile; fileRef = F203A72C1ACA56C000D77774 /* ObjetosOneByOne.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,8 @@
 		F203A7261ACA499A00D77774 /* Tabla.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tabla.m; sourceTree = "<group>"; };
 		F203A7281ACA4F5200D77774 /* panaderiaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = panaderiaCell.h; sourceTree = "<group>"; };
 		F203A7291ACA4F5200D77774 /* panaderiaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = panaderiaCell.m; sourceTree = "<group>"; };
+		F203A72B1ACA56C000D77774 /* ObjetosOneByOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjetosOneByOne.h; sourceTree = "<group>"; };
+		F203A72C1ACA56C000D77774 /* ObjetosOneByOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjetosOneByOne.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +154,8 @@
 				F203A6DC1ACA3D3800D77774 /* Supporting Files */,
 				F203A7281ACA4F5200D77774 /* panaderiaCell.h */,
 				F203A7291ACA4F5200D77774 /* panaderiaCell.m */,
+				F203A72B1ACA56C000D77774 /* ObjetosOneByOne.h */,
+				F203A72C1ACA56C000D77774 /* ObjetosOneByOne.m */,
 			);
 			path = coffeParse;
 			sourceTree = "<group>";
@@ -306,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F203A6E51ACA3D3800D77774 /* ViewController.m in Sources */,
+				F203A72D1ACA56C000D77774 /* ObjetosOneByOne.m in Sources */,
 				F203A6E21ACA3D3800D77774 /* AppDelegate.m in Sources */,
 				F203A72A1ACA4F5200D77774 /* panaderiaCell.m in Sources */,
 				F203A7271ACA499A00D77774 /* Tabla.m in Sources */,
