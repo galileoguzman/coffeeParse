@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *txtNombrePanaderia;
+@property (strong, nonatomic) IBOutlet UITextField *txtDescripcion;
+- (IBAction)btnGuardarEnParse:(id)sender;
 
 @end
 
